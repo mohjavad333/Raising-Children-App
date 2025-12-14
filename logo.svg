@@ -1,0 +1,44 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5E6E0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D9EBE8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="400" height="400" fill="url(#bgGradient)"/>
+  
+  <g transform="translate(200, 200)">
+    <!-- Outer circle background -->
+    <circle cx="0" cy="0" r="120" fill="#7DBFBB" opacity="0.3"/>
+    
+    <!-- Main circle -->
+    <circle cx="0" cy="0" r="100" fill="#6FB5B0"/>
+    
+    <!-- Darker shadow circle -->
+    <circle cx="20" cy="20" r="100" fill="#5A9A95" opacity="0.4"/>
+    
+    <!-- Hand (pink/rose) -->
+    <g>
+      <path d="M -40 20 Q -60 20 -70 40 Q -75 55 -60 70 L -30 50 Z" fill="#E8A6A6" stroke="white" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M -20 30 Q -15 15 0 10 Q 10 8 15 20 L -10 40 Z" fill="#E8A6A6" stroke="white" stroke-width="3" stroke-linejoin="round"/>
+    </g>
+    
+    <!-- Heart and shapes (gold/yellow and teal) -->
+    <g>
+      <!-- Large heart -->
+      <path d="M -20 -30 Q -35 -45 -45 -35 Q -55 -25 -45 -10 Q -35 0 -20 10 Q -5 0 5 -10 Q 15 -25 5 -35 Q -5 -45 -20 -30 Z" fill="#D4C070" stroke="white" stroke-width="3" stroke-linejoin="round"/>
+      
+      <!-- Medium shape -->
+      <path d="M 0 -15 Q -12 -25 -15 -10 Q -15 0 0 8 Q 15 0 15 -10 Q 12 -25 0 -15 Z" fill="#D4C070" stroke="white" stroke-width="3" stroke-linejoin="round"/>
+      
+      <!-- Books/pages -->
+      <rect x="10" y="5" width="30" height="35" fill="#6FB5B0" stroke="white" stroke-width="2.5" rx="3"/>
+      <rect x="20" y="10" width="20" height="25" fill="#7DBFBB" stroke="white" stroke-width="2.5" rx="2"/>
+      
+      <!-- Top right duck -->
+      <path d="M 50 -35 Q 65 -45 75 -35 Q 75 -20 60 -20 Q 50 -25 50 -35 Z" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="70" cy="-40" r="6" fill="none" stroke="white" stroke-width="3"/>
+    </g>
+  </g>
+</svg>
