@@ -144,12 +144,12 @@ export default function Welcome() {
             <div className="mb-8 flex justify-center">
               <img
                 src="../photo/growth.png"
-                alt="هم‌قدم در رشد فرزند"
+                alt="هم‌ قدم در رشد فرزند"
                 className="w-32 h-32"
               />
             </div>
             <h1 className="text-3xl font-bold text-slate-800 mb-2">
-              هم‌قدم در رشد فرزند
+              هم‌ قدم در رشد فرزند
             </h1>
             <p className="text-slate-600 text-lg mb-12">
               ورود و شروع کار
@@ -164,7 +164,7 @@ export default function Welcome() {
                 }}
                 className="w-full py-4 px-6 bg-primary text-white rounded-2xl font-semibold text-lg hover:bg-primary/90 transition-colors shadow-md hover:shadow-lg duration-200"
               >
-                ثبت‌نام
+                ثبت‌ نام
               </button>
               <button
                 onClick={() => {
@@ -193,7 +193,7 @@ export default function Welcome() {
               ← بازگشت
             </button>
             <h2 className="text-2xl font-bold text-slate-800 mb-6">
-              ثبت‌نام
+              ثبت‌ نام
             </h2>
 
             {error && (
@@ -264,7 +264,7 @@ export default function Welcome() {
                 disabled={isLoading}
                 className="w-full py-3 bg-primary text-white rounded-xl font-semibold hover:bg-primary/90 transition-colors disabled:opacity-50 mt-6"
               >
-                {isLoading ? "درحال ثبت‌نام..." : "ثبت‌نام و ورود"}
+                {isLoading ? "درحال ثبت‌نام..." : "ثبت‌ نام و ورود"}
               </button>
             </form>
           </div>
