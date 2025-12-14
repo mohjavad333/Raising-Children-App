@@ -251,13 +251,13 @@ export default function GrowthNotebook() {
               <div className="bg-white rounded-2xl p-6 shadow-md">
                 <p className="text-slate-600 text-sm mb-1">میانگین قد</p>
                 <p className="text-3xl font-bold text-slate-800">
-                  {Math.round(avgValue)} سم
+                  {Math.round(avgValue)} سانتی متر
                 </p>
               </div>
               <div className="bg-white rounded-2xl p-6 shadow-md">
                 <p className="text-slate-600 text-sm mb-1">آخرین ثبت قد</p>
                 <p className="text-3xl font-bold text-primary">
-                  {currentData[currentData.length - 1]?.height} سم
+                  {currentData[currentData.length - 1]?.height}سانتی متر
                 </p>
               </div>
               <div className="bg-white rounded-2xl p-6 shadow-md">
@@ -336,7 +336,7 @@ export default function GrowthNotebook() {
                     {activeTab === "physical" ? (
                       <>
                         <p className="font-semibold text-slate-800">
-                          قد: {entry.height} سم | وزن: {entry.weight} کیلوگرم | خواب: {entry.sleepHours} ساعت
+                          قد: {entry.height} سانتی متر | وزن: {entry.weight} کیلوگرم | خواب: {entry.sleepHours} ساعت
                         </p>
                         {entry.note && (
                           <p className="text-sm text-slate-600">{entry.note}</p>
