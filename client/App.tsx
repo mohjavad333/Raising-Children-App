@@ -30,7 +30,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/Raising-Children-App">
         <Routes>
           <Route path="/" element={<Welcome />} />
           <Route path="/parent-profile" element={<ParentProfile />} />
