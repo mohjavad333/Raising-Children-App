@@ -143,7 +143,7 @@ export default function Welcome() {
           <div className="text-center mb-12 animate-fade-in">
             <div className="mb-8 flex justify-center">
               <img
-                src="/logo.svg"
+                src="../photo/growth.png"
                 alt="هم‌قدم در رشد فرزند"
                 className="w-32 h-32"
               />
